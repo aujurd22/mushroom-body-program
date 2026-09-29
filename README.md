@@ -26,8 +26,8 @@ semantic discretion?*
 |---|---|---|
 | [aujurd22/flymemory](https://github.com/aujurd22/flymemory) | **Memory substrate / experimental infrastructure** (fixed role) — long-term memory layer for AI agents: hybrid retrieval (dense+lexical→RRF, optional cross-encoder) + memory state machine + model-driven judgment; also hosts the program's law ledger (research/RESEARCH.md) | Anchoring law L6: anchored semantic discretion is near-mechanical (97.9%, pre-registered paired experiment, discordant 13:0); unanchored judgment is where discretion lives (70.8%) |
 | [aujurd22/flypoet](https://github.com/aujurd22/flypoet) | Selection testbed — fly mushroom-body mechanisms transplanted into a from-scratch char-level LLM (k-WTA, compartments, write gating, active forgetting), each with the control group it deserves | The U-shaped sparsity sweet spot survives seeds and scales, but mechanism dissection shows the active ingredients are *stable subsets* and *update throttling* — not winner-take-all competition, not surprise selectivity |
-| [aujurd22/intuition-mechanism](https://github.com/aujurd22/intuition-mechanism) | Structure-recombination testbed — can Ramanujan-style formula discovery be reduced to a mechanical pipeline? (pre-registered registry P1–P50) | Recognition is governed by extraction quality (C1) and solved by supplying objective sufficient statistics; novelty additionally requires hull-visible class boundaries (C2) — the two-condition law holds across four families without exception |
-| [aujurd22/flyloop](https://github.com/aujurd22/flyloop) | Closed-loop sandbox wiring the three above into one learning cycle: experience → memory → prediction → error → update → insight (no LLM in the loop; mechanical world; recoverable ground truth) | V3/V4 paired-memory arms: structured memory cuts recurrence relearn cost (dE20 = +0.64, CI [0.51, 0.77]) with zero advantage on novel variants — a pure reuse signature |
+| [aujurd22/intuition-mechanism](https://github.com/aujurd22/intuition-mechanism) | Structure-recombination testbed — can Ramanujan-style formula discovery be reduced to a mechanical pipeline? (pre-registered registry P1–P73; see also docs/MEMORY_GEOMETRY.md, the six-law geometry synthesis with production anchors measured on the live FlyMemory store) | Recognition is governed by extraction quality (C1) and solved by supplying objective sufficient statistics; novelty additionally requires hull-visible class boundaries (C2) — the two-condition law holds across four families without exception |
+| [aujurd22/flyloop](https://github.com/aujurd22/flyloop) | Closed-loop sandbox wiring the three above into one learning cycle: experience → memory → prediction → error → update → insight (no LLM in the loop; mechanical world; recoverable ground truth). Since 09-29 it runs **RSI-0**: a mechanical self-improvement lineage over its own memory policy — objective fixed a priori, deterministic selector, lineage seeded with V4/V5B/V6T | Structured memory cuts recurrence relearn cost (dE20 = +0.64, CI [0.51, 0.77]) with zero advantage on novel variants — a pure reuse signature; V6 refuted the matcher-artifact hypothesis (the F-M gap WIDENS under tolerant matching); V7 factorial put SUPPORT ahead of write-verification ~5:1 and refuted the wavy-world order inversion for this implementation |
 
 **Canonical research-state document:** [`research/RESEARCH.md`](https://github.com/aujurd22/flymemory/blob/main/research/RESEARCH.md)
 in the flymemory repo (laws L1–L6, registered predictions with git-timestamp
@@ -105,7 +105,15 @@ proof, cross-testbed evidence chain). The intuition-mechanism registry is
 - Hub established: 2026-09-28.
 - Law ledger lives in flymemory (`research/RESEARCH.md`); registries live
   per-repo; this hub mirrors the compressed state and links out.
+- 2026-09-29: intuition-mechanism shipped docs/MEMORY_GEOMETRY.md (six
+  geometry laws G1-G6, P40b-P72 synthesis, production anchors measured on
+  the live FlyMemory store; the hook-length rule G5 is adopted in
+  flymemory's recall docstring; G6's evict-by-redundancy result puts
+  flymemory's LRU-family cleanup on the candidate-experiment queue as
+  P-CLEANUP, pending a two-scale-structure measurement). flyloop launched
+  RSI-0 G1 (BOOK_CAP 5→13, targeting the measured no-candidate floor).
 - Next program-level milestones: replicate the sufficient-statistic →
   capability chain on a second, structurally different math family;
-  mechanical sufficient statistic for memory judgment (anchoring result is
-  the first candidate); flyloop V5 design.
+  mechanical sufficient statistic for memory judgment (the anchoring
+  result is the first candidate); P-CLEANUP registration decision;
+  RSI-0 G1 adjudication.
