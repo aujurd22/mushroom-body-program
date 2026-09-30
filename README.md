@@ -24,7 +24,7 @@ semantic discretion?*
 
 | Repo | Role | One-line result |
 |---|---|---|
-| [aujurd22/flymemory](https://github.com/aujurd22/flymemory) | **Memory substrate / experimental infrastructure** (fixed role) — long-term memory layer for AI agents: hybrid retrieval (dense+lexical→RRF, optional cross-encoder) + memory state machine + model-driven judgment; also hosts the program's law ledger (research/RESEARCH.md) | Anchoring law L6: anchored semantic discretion is near-mechanical (97.9%, pre-registered paired experiment, discordant 13:0); unanchored judgment is where discretion lives (70.8%) |
+| [aujurd22/flymemory](https://github.com/aujurd22/flymemory) | **Memory substrate / experimental infrastructure** (fixed role) — long-term memory layer for AI agents: hybrid retrieval (dense+lexical→RRF, optional cross-encoder) + memory state machine + model-driven judgment; also hosts the program's law ledger (research/RESEARCH.md) | Anchoring law L6: anchored semantic discretion is near-mechanical (97.9%, pre-registered paired experiment). Collection line closed with a three-way negative (bare width beats every smart collector); the answer layer is repairable — **map-reduce answering 16% vs 6% baseline** on the hardest multi-session set |
 | [aujurd22/flypoet](https://github.com/aujurd22/flypoet) | Selection testbed — fly mushroom-body mechanisms transplanted into a from-scratch char-level LLM (k-WTA, compartments, write gating, active forgetting), each with the control group it deserves | The U-shaped sparsity sweet spot survives seeds and scales, but mechanism dissection shows the active ingredients are *stable subsets* and *update throttling* — not winner-take-all competition, not surprise selectivity. k25 generates a distinct self-consistent distribution (more confident AND more diverse than dense), not a degraded dense |
 | [aujurd22/intuition-mechanism](https://github.com/aujurd22/intuition-mechanism) | Structure-recombination testbed — can Ramanujan-style formula discovery be reduced to a mechanical pipeline? (pre-registered registry P1–P73; see also docs/MEMORY_GEOMETRY.md, the six-law geometry synthesis with production anchors measured on the live FlyMemory store) | Recognition is governed by extraction quality (C1) and solved by supplying objective sufficient statistics; novelty additionally requires hull-visible class boundaries (C2) — the two-condition law holds across four families without exception |
 | [aujurd22/flyloop](https://github.com/aujurd22/flyloop) | Closed-loop sandbox wiring the three above into one learning cycle: experience → memory → prediction → error → update → insight (no LLM in the loop; mechanical world; recoverable ground truth). Runs **RSI-0**, a mechanical self-improvement lineage over its own memory policy: objective fixed a priori, deterministic selector, mutation menu (storage AND read-policy axes), preflight-gated runs | Four generations done: g0 (2.347) → G1 ✗ → G2 ✗ → **G3 ✓ adaptive read policy (2.000)** → **G4 ✓ replication (1.917)** — both selection polarities exercised. V8 found the ε dose-response NON-MONOTONIC: moderate observation noise (ε=0.15, FULL E20 1.102) improves rule-based memory by forcing cleaner registrations — better than no noise at all (2.347) |
@@ -123,8 +123,20 @@ proof, cross-testbed evidence chain). The intuition-mechanism registry is
   production store is heavy-tail redundant (NOT two-scale), eviction
   shows a benefit-cost mirror, upstream dedup already collected the
   redundancy dividend — LRU stays.
-- Next program-level milestones: answer-side aggregation experiment
-  (map-reduce answering on the multi-session set — the relocated
-  bottleneck); RSI-0 G5 (mutation menu now includes the READ_POLICY
-  axis); L6 cross-model replication; P35/P36 second-math-family
+- 2026-09-30 late: **P-ANSWER SUPPORTED — the answer layer is
+  repairable.** With the collector fixed to FLAT-30, per-entry atomic-fact
+  extraction + reduce answers the hardest multi-session set at 16.0% vs
+  6.0% baseline (HIGHLIGHT backfired into 48/50 abstain; STRUCT +2pp
+  reconfirms L2 from the answer side). Adopted as a caller-side protocol
+  (map-reduce for aggregation-class questions); unsupported-claims audit
+  registered as the open gate before production wiring. intuition-
+  mechanism added P135 (field→orbit→unit→rationality chain written
+  per-layer with failure modes; census-conditional "exactly" discipline).
+  flyloop's epsilon dose-response hardened into a J-shaped curve with an
+  optimal noise zone at ε=0.05-0.15 (0.543-1.102, 4x better than no
+  noise).
+- Next program-level milestones: unsupported-claims audit for the
+  map-reduce protocol; wire map-reduce into classify_query
+  aggregation-class routing (caller-side); RSI-0 G5 (READ_POLICY axis in
+  the menu); L6 cross-model replication; P35/P36 second-math-family
   replication (intuition side).
