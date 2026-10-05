@@ -192,6 +192,25 @@ proof, cross-testbed evidence chain). The intuition-mechanism registry is
   fields are false positives, accuracy 2/17, worse than the all-NOT prior. flyloop opened M7 (preemptive composition inference) after
   V10b's honest in-loop failure. flymemory's map-reduce protocol failed its own audit gate
   (6% unsupported claims); the registered revision awaits the final round.
+- 2026-10-03/04: **the program grew a nervous system — and a controller.**
+  flymemory formalized the three-way distinction (compression /
+  composition / insight) and closed P-LAW1: a description-length prior
+  prefers the shadow over verification (rho = -0.826) — verification
+  cannot be outsourced. Then the loop closed twice in one day: the
+  **Memory Geometry Controller** (P73) — a mechanical, zero-free-parameter
+  geometry-to-policy mapping prescribing FlyMemory's own production
+  defaults — was defined in flymemory and **implemented the same day in
+  flyloop**. flyloop's M7 line ground through seven adjudications
+  (M7.2 storage verified, M7.3 re-adjudicated 59/59 self-answering and
+  90% wrong, M7.4 refuted the wave cause, M7.5 variant registered,
+  M7.7 EPUSH_EARLY pre-registered). intuition-mechanism: repo-wide
+  reorganization (194 scripts + 420 artifacts under experiments/),
+  registry to **P268** — the direction/subspace granularity question
+  closed as L2-null with two weak out-of-sample leads (churn ratio
+  r~0.35), the shrinking law and six-row theorem now anchored by a
+  results table readable in one screen. flypoet completed the matched
+  650M pair (k25 +0.155) with the trend wording tightened to
+  **non-monotone**. flymemory's README now ships in English + Chinese.
 - Next program-level milestones: P-AUDIT round 2 (the one-revision final
   gate for the map-reduce protocol), then caller-side routing; M7 verdict
   in flyloop (does preemptive composition inference beat waiting for
